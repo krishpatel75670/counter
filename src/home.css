@@ -1,0 +1,32 @@
+.hero {
+    align-items: center;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    #wb {
+        width: 45%;
+        height: 45%;
+        border-radius: 2%;
+        box-shadow: 0 5px 10px #b06027;
+    }
+
+    #ph {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #ph {
+        width: 60%;
+        height: 60%;
+        border-radius: 2%;
+        box-shadow: 0 5px 10px #b06027;
+
+    }
+
+    #wb {
+        display: none;
+    }
+}
